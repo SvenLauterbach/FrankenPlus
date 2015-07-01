@@ -340,9 +340,11 @@ namespace Franken_
                 string TrFilesLine = "";
                 foreach (string TRFile in TRFiles)
                 {
-                    if (File.Exists(TrainingDir + "\\" + TRFile.Replace(".tr", ".box")))
+                    string trFileName = Path.GetFileNameWithoutExtension(TRFile);
+                    string trFilePath = string.Format("{0}\\{1}.box", TrainingDir, trFileName);
+                    if (File.Exists(trFilePath))
                     {
-                        BoxFilesLine += " " + TRFile.Replace(".tr", ".box");
+                        BoxFilesLine += " " + string.Format("{0}.box", trFileName);
                         TrFilesLine += " " + TRFile;
                     }
                 }
