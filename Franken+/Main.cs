@@ -290,7 +290,7 @@ namespace Franken_
             }
             else if (Job == "MakeImages")
             {
-                ImageWriter IW = new ImageWriter(ref slave, ref ProcessStatus, LangName, FontID, MakeImagesFolder, subTransBox.Checked);
+                ImageWriter IW = new ImageWriter(ref slave, ref ProcessStatus, LangName, FontID, MakeImagesFolder, subTransBox.Checked, cbUseRandom.Checked);
                 if (Directory.Exists(db.DataDirectory + "\\TiffBoxPairs\\" + FontID))
                 {
                     Process.Start(db.DataDirectory + "\\TiffBoxPairs\\" + FontID);

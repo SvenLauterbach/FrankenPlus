@@ -147,6 +147,10 @@ namespace Franken_
                         
                             B.Height = DisplaySize;
                             B.Width = DisplaySize;
+                            
+                            ToolTip tip = new ToolTip();
+                            
+                            tip.SetToolTip(B, string.Format("height: {0}, width: {1}", B.Image.Height, B.Image.Width));
                         
 
                             if (myFont.Glyphs[SelectedGlyph].Images[x].Status == "REM")

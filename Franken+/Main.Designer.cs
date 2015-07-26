@@ -65,6 +65,7 @@
             this.createLangButton = new System.Windows.Forms.Button();
             this.langBox = new System.Windows.Forms.ComboBox();
             this.copyFontButton = new System.Windows.Forms.Button();
+            this.cbUseRandom = new System.Windows.Forms.CheckBox();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -169,20 +170,21 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.cbUseRandom);
             this.groupBox4.Controls.Add(this.createTiffBoxButton);
             this.groupBox4.Controls.Add(this.transTextBrowseButton);
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.Controls.Add(this.transTextBox);
             this.groupBox4.Location = new System.Drawing.Point(15, 227);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(200, 104);
+            this.groupBox4.Size = new System.Drawing.Size(200, 132);
             this.groupBox4.TabIndex = 17;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Synthesize TIF/Box Pair";
             // 
             // createTiffBoxButton
             // 
-            this.createTiffBoxButton.Location = new System.Drawing.Point(7, 68);
+            this.createTiffBoxButton.Location = new System.Drawing.Point(7, 93);
             this.createTiffBoxButton.Name = "createTiffBoxButton";
             this.createTiffBoxButton.Size = new System.Drawing.Size(132, 23);
             this.createTiffBoxButton.TabIndex = 4;
@@ -392,11 +394,21 @@
             this.copyFontButton.UseVisualStyleBackColor = true;
             this.copyFontButton.Click += new System.EventHandler(this.copyFontButton_Click);
             // 
+            // cbUseRandom
+            // 
+            this.cbUseRandom.AutoSize = true;
+            this.cbUseRandom.Location = new System.Drawing.Point(7, 68);
+            this.cbUseRandom.Name = "cbUseRandom";
+            this.cbUseRandom.Size = new System.Drawing.Size(119, 17);
+            this.cbUseRandom.TabIndex = 5;
+            this.cbUseRandom.Text = "Use random images";
+            this.cbUseRandom.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(445, 343);
+            this.ClientSize = new System.Drawing.Size(445, 371);
             this.Controls.Add(this.copyFontButton);
             this.Controls.Add(this.langBox);
             this.Controls.Add(this.createLangButton);
@@ -467,6 +479,7 @@
         private System.Windows.Forms.ToolStripMenuItem exportFontToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem2;
+        private System.Windows.Forms.CheckBox cbUseRandom;
     }
 }
 

@@ -265,6 +265,7 @@ namespace Franken_.App_Code
         DataPipe db = new DataPipe();
 
         public System.Collections.Generic.List<GlyphImage> Images = new List<GlyphImage>();
+        private int currentImageIndex = 0;
 
         public Glyph()
         { }
@@ -307,7 +308,7 @@ namespace Franken_.App_Code
         {
             this.Images.Clear();
 
-            if (db.GetRows("select img_id from images where img_glyph_id = " + this.ID))
+            if (db.GetRows("select img_id from images where img_glyph_id = " + this.ID + " order by img_id asc"))
             {
                 DataTable ImageTable = db.Bucket.Copy();
 
@@ -337,6 +338,35 @@ namespace Franken_.App_Code
 
             if (Images.Count > REMedImages) { Available = true; }
             return Available;
+        }
+
+        public int GetNextImageIndex()
+        {
+            if (Images.Count == 1)
+            {
+                return 0;
+            }
+            int result = currentImageIndex%(Images.Count - 1);
+            currentImageIndex++;
+            return result;
+        }
+
+        public string GetNextImages()
+        {
+            int index = 0;
+
+            while (true)
+            {
+                index = GetNextImageIndex();
+                if (Images[index].Status != "REM")
+                {
+                    break;
+                }
+            }
+
+            string imagePath = Images[index].Path;
+
+            return imagePath;
         }
 
         public string GetRandomImage()

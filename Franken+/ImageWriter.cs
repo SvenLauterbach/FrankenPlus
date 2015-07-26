@@ -8,6 +8,7 @@ using System.Collections;
 using BitMiracle.LibTiff.Classic;
 using System.ComponentModel;
 using System.IO;
+using System.Diagnostics;
 
 namespace Franken_.App_Code
 {
@@ -43,11 +44,19 @@ namespace Franken_.App_Code
         int CurrentLineBottomHeight = MARGIN;
         int ByteCursor = MARGIN / BYTESIZE;
 
-        public ImageWriter(ref BackgroundWorker Slave, ref string ProcessStatus, string LangName, string FontID, string TransPath, bool UseSubList)
+        private string debugfile = "";
+        private bool useRandomImages;
+
+        public ImageWriter(ref BackgroundWorker Slave, ref string ProcessStatus, string LangName, string FontID, string TransPath, bool UseSubList, bool useRandomImages)
         {
             this.myFont = new Font(FontID, true, true);
             this.mySubs = new SubList();
+            this.useRandomImages = useRandomImages;
 
+            this.debugfile = string.Format(@"C:\temp\debug_{0}.txt", DateTime.Now.Ticks);
+
+            Debug(string.Format("1: CurrentTopHeight: {0} FontLineHeight: {1}", CurrentLineTopHeight, myFont.LineHeight));
+            
             CurrentLineBottomHeight = CurrentLineTopHeight + myFont.LineHeight;
             this.LangName = LangName;
             this.TranscriptPath = TransPath;
@@ -99,6 +108,8 @@ namespace Franken_.App_Code
 
             double Increment = 100 / Words.Length;
 
+            
+
             //WRITE WORDS
             for (int x = 0; x < Words.Length; x++)
             {
@@ -137,6 +148,7 @@ namespace Franken_.App_Code
 
                             if (AccountedFor)
                             {
+                                
                                 AddGlyph(myFont.Glyphs[gIndex]);
                             }
                             else
@@ -146,7 +158,10 @@ namespace Franken_.App_Code
                         }
                     }
 
-                    WriteGlyphWord();
+                    Debug(string.Format("CurrentLineBottomHeight: {0} CurrentLineTopHeight: {1} ByteCursor: {2} ",
+                CurrentLineBottomHeight, CurrentLineTopHeight, ByteCursor));
+
+                    WriteGlyphWord(debugfile);
                 }
             }
 
@@ -201,6 +216,13 @@ namespace Franken_.App_Code
 
         }
 
+        private void Debug(string message)
+        {
+            var r = File.AppendText(debugfile);
+            r.WriteLine(message);
+            r.Close();
+        }
+
         public void AddGlyph(App_Code.Glyph G)
         {
             string GlyphFile = "";
@@ -209,7 +231,16 @@ namespace Franken_.App_Code
             int GlyphScanSize = 0;
             byte[][] GlyphData;
 
-            GlyphFile = db.DataDirectory + G.GetRandomImage();
+            string imagePath = "";
+            if (useRandomImages)
+            {
+                imagePath = G.GetRandomImage(); 
+            }
+            else
+            {
+                imagePath = G.GetNextImages();
+            }
+            GlyphFile = db.DataDirectory + imagePath;
 
             if (GlyphFile != "")
             {
@@ -230,6 +261,7 @@ namespace Franken_.App_Code
 
                         if (GlyphHeight > (CurrentLineBottomHeight - CurrentLineTopHeight))
                         {
+                            Debug(string.Format("2: CurrentLineTopHeight: {0} GlyphHeight: {1}", CurrentLineTopHeight, GlyphHeight));
                             CurrentLineBottomHeight = CurrentLineTopHeight + GlyphHeight;
                         }
 
@@ -243,7 +275,7 @@ namespace Franken_.App_Code
             }
         }
 
-        public void WriteGlyphWord()
+        public void WriteGlyphWord(string debugFile)
         {
             //for testing purposes, reconstruct the word as a string
             /*
@@ -276,6 +308,8 @@ namespace Franken_.App_Code
                 {
                     int GlyphYpos = CurrentLineBottomHeight - G.GlyphHeight + G.GlyphYOffset;
                     int GlyphXpos = ByteCursor * 8;
+
+                    Debug(string.Format("glyphYpos: {0} glyphXpos: {1} ", GlyphYpos, GlyphXpos));
 
                     for (int y = 0; y < G.GlyphHeight; y++)
                     {
@@ -319,6 +353,7 @@ namespace Franken_.App_Code
                     {
                         StartNewTiff();
                         CurrentLineTopHeight = MARGIN;
+                        Debug(string.Format("4: Margin: {0} WordHeight: {1}", MARGIN, WordHeight));
                         CurrentLineBottomHeight = MARGIN + WordHeight;
                         ByteCursor = MARGIN / BYTESIZE;
                     }
