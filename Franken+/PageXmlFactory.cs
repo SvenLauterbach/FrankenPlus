@@ -24,7 +24,7 @@ namespace Franken_
         /// </summary>
         /// <param name="path">Path to the page xml file.</param>
         /// <returns>page xml object</returns>
-        public static PageXml GetPageXml(string path)
+        public static PageXml GetPageXml(string path, bool newImgExtractor)
         {
 
             string pageXmlNamespace = PageXml.GetNamespace(path);
@@ -34,7 +34,7 @@ namespace Franken_
                 case V2_NAMESPACE:
                     return new PageXmlV2(path);
                 case V3_NAMESPACE:
-                    return new PageXmlV3(path);
+                    return new PageXmlV3(path, newImgExtractor);
                 default:
                     return new PageXmlV2(path);
             }

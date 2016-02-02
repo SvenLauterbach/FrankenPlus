@@ -155,7 +155,7 @@ namespace Franken_
                             string inputXmlFilePath = FullInputDir + inputFileName;
                             string outputFolderPath = FullOutputDir + "\\" + inputFileName.Replace(".xml", "");
 
-                            PageXml pageXml = PageXmlFactory.GetPageXml(F);
+                            PageXml pageXml = PageXmlFactory.GetPageXml(F, useNewImgExtractor.Checked);
 
                             string extractor = pageXml.ImageExtratorRelPath;
                             string command = string.Format(@"{0}\GlyphExtraction\{1}", db.DataDirectory, extractor);
@@ -167,7 +167,7 @@ namespace Franken_
                             ProcessStatus = "Processing extracted images...";
                             Slave.ReportProgress(((int)(CurrentProgress * Increment)));
 
-                            myFont.IngestImages(LangName, myFont.Name, inputFileName.Replace(".xml", ""), FullInputDir + "\\" + inputFileName, FullOutputDir + "\\" + inputFileName.Replace(".xml", ""), UseSubList);
+                            myFont.IngestImages(LangName, myFont.Name, inputFileName.Replace(".xml", ""), FullInputDir + "\\" + inputFileName, FullOutputDir + "\\" + inputFileName.Replace(".xml", ""), UseSubList, useNewImgExtractor.Checked);
                         }
                     }
 
@@ -752,7 +752,6 @@ namespace Franken_
         {
             Process.Start("http://dh-emopweb.tamu.edu/Franken+");
         }
-
     }   
 
         

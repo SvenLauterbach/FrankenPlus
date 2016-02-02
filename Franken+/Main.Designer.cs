@@ -36,10 +36,12 @@
             this.editFontButton = new System.Windows.Forms.Button();
             this.createFontButton = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.useNewImgExtractor = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tiffXMLBrowseButton = new System.Windows.Forms.Button();
             this.tiffXMLInputBox = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.cbUseRandom = new System.Windows.Forms.CheckBox();
             this.createTiffBoxButton = new System.Windows.Forms.Button();
             this.transTextBrowseButton = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -65,7 +67,6 @@
             this.createLangButton = new System.Windows.Forms.Button();
             this.langBox = new System.Windows.Forms.ComboBox();
             this.copyFontButton = new System.Windows.Forms.Button();
-            this.cbUseRandom = new System.Windows.Forms.CheckBox();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -131,16 +132,27 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.useNewImgExtractor);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.ingestGlyphsButton);
             this.groupBox3.Controls.Add(this.tiffXMLBrowseButton);
             this.groupBox3.Controls.Add(this.tiffXMLInputBox);
             this.groupBox3.Location = new System.Drawing.Point(15, 114);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 98);
+            this.groupBox3.Size = new System.Drawing.Size(200, 135);
             this.groupBox3.TabIndex = 16;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Aletheia TIF/XML";
+            // 
+            // useNewImgExtractor
+            // 
+            this.useNewImgExtractor.AutoSize = true;
+            this.useNewImgExtractor.Location = new System.Drawing.Point(7, 100);
+            this.useNewImgExtractor.Name = "useNewImgExtractor";
+            this.useNewImgExtractor.Size = new System.Drawing.Size(130, 17);
+            this.useNewImgExtractor.TabIndex = 3;
+            this.useNewImgExtractor.Text = "Use new ImgExtractor";
+            this.useNewImgExtractor.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -175,12 +187,22 @@
             this.groupBox4.Controls.Add(this.transTextBrowseButton);
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.Controls.Add(this.transTextBox);
-            this.groupBox4.Location = new System.Drawing.Point(15, 227);
+            this.groupBox4.Location = new System.Drawing.Point(15, 265);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(200, 132);
             this.groupBox4.TabIndex = 17;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Synthesize TIF/Box Pair";
+            // 
+            // cbUseRandom
+            // 
+            this.cbUseRandom.AutoSize = true;
+            this.cbUseRandom.Location = new System.Drawing.Point(7, 68);
+            this.cbUseRandom.Name = "cbUseRandom";
+            this.cbUseRandom.Size = new System.Drawing.Size(119, 17);
+            this.cbUseRandom.TabIndex = 5;
+            this.cbUseRandom.Text = "Use random images";
+            this.cbUseRandom.UseVisualStyleBackColor = true;
             // 
             // createTiffBoxButton
             // 
@@ -394,21 +416,11 @@
             this.copyFontButton.UseVisualStyleBackColor = true;
             this.copyFontButton.Click += new System.EventHandler(this.copyFontButton_Click);
             // 
-            // cbUseRandom
-            // 
-            this.cbUseRandom.AutoSize = true;
-            this.cbUseRandom.Location = new System.Drawing.Point(7, 68);
-            this.cbUseRandom.Name = "cbUseRandom";
-            this.cbUseRandom.Size = new System.Drawing.Size(119, 17);
-            this.cbUseRandom.TabIndex = 5;
-            this.cbUseRandom.Text = "Use random images";
-            this.cbUseRandom.UseVisualStyleBackColor = true;
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(445, 371);
+            this.ClientSize = new System.Drawing.Size(445, 409);
             this.Controls.Add(this.copyFontButton);
             this.Controls.Add(this.langBox);
             this.Controls.Add(this.createLangButton);
@@ -480,6 +492,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem2;
         private System.Windows.Forms.CheckBox cbUseRandom;
+        private System.Windows.Forms.CheckBox useNewImgExtractor;
     }
 }
 

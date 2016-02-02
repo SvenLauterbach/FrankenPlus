@@ -9,6 +9,8 @@ using BitMiracle.LibTiff.Classic;
 using System.ComponentModel;
 using System.IO;
 using System.Diagnostics;
+using Franken_.Model;
+using Franken_.Model.Entities;
 
 namespace Franken_.App_Code
 {
@@ -46,6 +48,9 @@ namespace Franken_.App_Code
 
         private string debugfile = "";
         private bool useRandomImages;
+
+        private Dictionary<Glyph, Statistic> statistics = new Dictionary<Glyph, Statistic>();
+        private DateTime currentRun = DateTime.Now;
 
         public ImageWriter(ref BackgroundWorker Slave, ref string ProcessStatus, string LangName, string FontID, string TransPath, bool UseSubList, bool useRandomImages)
         {
@@ -214,6 +219,34 @@ namespace Franken_.App_Code
                 Fout.Close();
             }
 
+            using (var FrankenDB = new FrankenDatabase())
+            {
+                System.IO.StreamWriter sout = new System.IO.StreamWriter(OutputPath + "\\statistic.txt", true);
+                foreach (var statistic in FrankenDB.Statistics)
+                {
+                    int occurence = 0;
+                    if (myFont.Glyphs.Any(x => x.Unicode == statistic.Glyph))
+                    {
+                        Glyph glyph = myFont.Glyphs.First(x => x.Unicode == statistic.Glyph);
+                        statistic.UsedImages.ForEach(x => occurence = occurence + x.Count);
+                        sout.WriteLine(string.Format("{0}: occurence: {1}, Number of images: {2}", statistic.Glyph,
+                            occurence
+                            , glyph.GetNumberOfImages()));
+                        sout.WriteLine("===========");
+                        foreach (var image in statistic.UsedImages)
+                        {
+                            sout.WriteLine(string.Format("ID: {0}, {1}", image.ImageId, image.Count));
+                        }
+
+                        sout.WriteLine("===========");
+                    }
+                }
+                sout.Close();
+                FrankenDB.SaveChanges();
+            }
+
+            
+
         }
 
         private void Debug(string message)
@@ -231,16 +264,55 @@ namespace Franken_.App_Code
             int GlyphScanSize = 0;
             byte[][] GlyphData;
 
+            GlyphImage glyphImage = null;
             string imagePath = "";
             if (useRandomImages)
             {
-                imagePath = G.GetRandomImage(); 
+                glyphImage = G.GetRandomImage(); 
             }
             else
             {
-                imagePath = G.GetNextImages();
+                glyphImage = G.GetNextImages();
             }
+            imagePath = glyphImage.Path;
             GlyphFile = db.DataDirectory + imagePath;
+
+            using (var FrankenDB = new FrankenDatabase())
+            {
+                if (FrankenDB.Statistics.Any(x => x.Glyph == G.Unicode))
+                {
+                    var stat = FrankenDB.Statistics.Where(x => x.Glyph == G.Unicode).First();
+                    if (stat.UsedImages.Any(x => x.ImageId == glyphImage.ID))
+                    {
+                        stat.UsedImages.Where(x => x.ImageId == glyphImage.ID).First().Count++;
+                    }
+                    else
+                    {
+                        stat.UsedImages.Add(new UsedImage()
+                        {
+                            ImageId = glyphImage.ID,
+                            Count = 1
+                        });
+                    }
+                }
+                else
+                {
+                    var statistic = new Statistic()
+                    {
+                        Glyph = G.Unicode,
+                        Run = currentRun,
+                        UsedImages = new List<UsedImage>()
+                    };
+                    statistic.UsedImages.Add(new UsedImage()
+                    {
+                        ImageId = glyphImage.ID,
+                        Count = 1
+                    });
+                    FrankenDB.Statistics.Add(statistic);
+                }
+
+                FrankenDB.SaveChanges();
+            }
 
             if (GlyphFile != "")
             {

@@ -11,6 +11,8 @@ using System.Windows.Forms;
 using Franken_.App_Code;
 using BitMiracle.LibTiff.Classic;
 using System.IO;
+using Franken_.Model;
+using Franken_.Model.Entities;
 
 namespace Franken_
 {
@@ -119,7 +121,15 @@ namespace Franken_
 
             if (myFont != null)
             {
-                SelectedGlyph = myFont.FindGlyph(((App_Code.Glyph)glyphBox.SelectedItem).Unicode);
+                var selectedGlyphUnicode = ((App_Code.Glyph) glyphBox.SelectedItem).Unicode;
+                SelectedGlyph = myFont.FindGlyph(selectedGlyphUnicode);
+
+                //Statistic stat = new Statistic();
+
+                //using (var FrankenDB = new FrankenDatabase())
+                //{
+                //    stat = FrankenDB.Statistics.Include("UsedImages").First(statistic => statistic.Glyph == selectedGlyphUnicode);
+                //}
 
                 displaySizeBar.Enabled = true;
                 remAllButton.Enabled = true;
@@ -149,8 +159,8 @@ namespace Franken_
                             B.Width = DisplaySize;
                             
                             ToolTip tip = new ToolTip();
-                            
-                            tip.SetToolTip(B, string.Format("height: {0}, width: {1}", B.Image.Height, B.Image.Width));
+
+                            int count = 0;
                         
 
                             if (myFont.Glyphs[SelectedGlyph].Images[x].Status == "REM")
@@ -158,6 +168,17 @@ namespace Franken_
                                 B.BackColor = Color.Red;
                                 B.ForeColor = Color.Red;
                             }
+
+                            //if (stat.UsedImages.Any(image => image.ImageId == myFont.Glyphs[SelectedGlyph].Images[x].ID))
+                            //{
+                            //    count =
+                            //        stat.UsedImages.First(
+                            //            image => image.ImageId == myFont.Glyphs[SelectedGlyph].Images[x].ID).Count;
+
+                            //    B.BackColor = Color.Orange;
+                            //}
+
+                            tip.SetToolTip(B, string.Format("height: {0}, width: {1}, count: {2}", B.Image.Height, B.Image.Width, count));
 
                             B.ContextMenuStrip = imageContextMenu;
                             B.Click += imageButton_Click;

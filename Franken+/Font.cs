@@ -117,9 +117,9 @@ namespace Franken_.App_Code
             }
         }
 
-        public void IngestImages(string LangName, string FontName, string BaseName, string XMLFile, string PathToImages, bool UseSubList)
+        public void IngestImages(string LangName, string FontName, string BaseName, string XMLFile, string PathToImages, bool UseSubList, bool useNewImgExtrator)
         {
-            PageXml pageXml = PageXmlFactory.GetPageXml(XMLFile);
+            PageXml pageXml = PageXmlFactory.GetPageXml(XMLFile, useNewImgExtrator);
 
             var Extracts = pageXml.GetGlyphs();
 
@@ -253,7 +253,7 @@ namespace Franken_.App_Code
         }
     }
 
-    class Glyph
+    public class Glyph
     {
         public string ID = "";
         public string FontID = "";
@@ -351,8 +351,9 @@ namespace Franken_.App_Code
             return result;
         }
 
-        public string GetNextImages()
+        public GlyphImage GetNextImages()
         {
+            GlyphImage imagePath = null;
             int index = 0;
 
             while (true)
@@ -364,14 +365,19 @@ namespace Franken_.App_Code
                 }
             }
 
-            string imagePath = Images[index].Path;
+            imagePath = Images[index];
 
             return imagePath;
         }
 
-        public string GetRandomImage()
+        public int GetNumberOfImages()
         {
-            string ImagePath = "";
+            return Images.Count;
+        }
+
+        public GlyphImage GetRandomImage()
+        {
+            GlyphImage ImagePath = null;
 
             System.Collections.Generic.List<int> AvailableImages = new List<int>();
 
@@ -383,14 +389,14 @@ namespace Franken_.App_Code
 
             if (AvailableImages.Count == 1)
             {
-                ImagePath = this.Images[AvailableImages[0]].Path;
+                ImagePath = this.Images[AvailableImages[0]];
             }
             else if (AvailableImages.Count > 0)
             {
                 Random R = new Random(System.DateTime.Now.Millisecond);
                 int rIndex = R.Next(0, AvailableImages.Count - 1);
 
-                ImagePath = this.Images[AvailableImages[rIndex]].Path;
+                ImagePath = this.Images[AvailableImages[rIndex]];
             }
 
             return ImagePath;
@@ -461,7 +467,7 @@ namespace Franken_.App_Code
         }
     }
 
-    class GlyphImage
+    public class GlyphImage
     {
         public string ID = "";
         public string GlyphID = "";
