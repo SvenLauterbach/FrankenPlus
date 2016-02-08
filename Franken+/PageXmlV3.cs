@@ -24,7 +24,7 @@ namespace Franken_
                 {
                     return "ImgExtractor\\ImageExtractor.exe";   
                 }
-                return "ExtractorExporter 1.2\\ExtractorExporter-1-2-50.exe";
+                return "ExtractorExporter 1.3\\ExtractorExporter-1-3-55.exe";
             }
         }
 

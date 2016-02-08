@@ -60,8 +60,8 @@
 		<lastauthor>Administrator</lastauthor>
 		<revnumber>{ECE729E6-5436-4D3D-80D9-10E5885AD949}</revnumber>
 		<lastprinted/>
-		<createdtm>06/21/1999 07:00</createdtm>
-		<lastsavedtm>07/14/2000 10:50</lastsavedtm>
+		<createdtm>06/21/1999 14:00</createdtm>
+		<lastsavedtm>07/14/2000 17:50</lastsavedtm>
 		<pagecount>200</pagecount>
 		<wordcount>0</wordcount>
 		<charcount/>
@@ -340,6 +340,9 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
+		<row><td>BitMiracle.LibTiff.NET.dll</td><td>{01D40B38-65F8-44C9-BCBB-48DBCA8E513D}</td><td>IMGEXTRACTOR</td><td>2</td><td/><td>bitmiracle.libtiff.net.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CommandLine.dll</td><td>{69C7DEE3-088B-4890-91FF-A6A4A675FB8E}</td><td>IMGEXTRACTOR</td><td>2</td><td/><td>commandline.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ExtractorExporter_1_3_55.exe</td><td>{76ABBA7D-7D5E-465D-9638-DA07AB89B3ED}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>extractorexporter_1_3_55.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Franken_.Primary_output</td><td>{D1DC8651-4B03-4DE2-9FED-9B907EDCEC09}</td><td>INSTALLDIR</td><td>2</td><td/><td>franken_.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{3142BBD4-12F9-456E-A73C-72EE0AC9CC9C}</td><td>PersonalFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{4DD94EAB-8CE3-497E-B982-0AD96E9FCC7E}</td><td>FRANKEN_1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -348,30 +351,60 @@
 		<row><td>ISX_DEFAULTCOMPONENT12</td><td>{4B942E9E-5F49-4E32-A445-CC45A3055DC0}</td><td>TIFFBOXPAIRS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT13</td><td>{FD802DE9-542E-4B92-BEDB-2CB9F8867895}</td><td>TRAININGLIBRARIES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT14</td><td>{42765E46-86DE-4095-8A04-AC733FFAE0D8}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT15</td><td>{FA4231D1-E011-42B3-92AB-05326C0D516A}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT16</td><td>{53D10344-FF5E-411D-90DE-12585AD4C70C}</td><td>BATCH</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT17</td><td>{8578DDF9-D9D5-4F04-B4C7-FC6477BC6163}</td><td>INPUT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT18</td><td>{428BEDCE-AFB6-4B59-9D3F-26172B73B8C2}</td><td>OUTPUT1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT19</td><td>{70D79F62-9AE5-4364-8276-750C067F6DA1}</td><td>DATA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{F36461E9-8DD8-43C1-8A38-0CAE5FF35126}</td><td>GLYPHEXTRACTION</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT20</td><td>{770D3A5C-EE27-4CEC-93BF-BA04F60D51AF}</td><td>GAMERA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT21</td><td>{B58D6D8F-A943-46FD-84F3-741088D84E53}</td><td>HELP1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT22</td><td>{123D956B-D170-488D-B60B-4FD62C24124E}</td><td>SCHEMA1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT23</td><td>{B55BAF53-4A82-4BAB-AE2A-1AE7C8B57074}</td><td>_009_03_161</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT24</td><td>{FEE773C1-CB7D-4E5B-855D-91E736538207}</td><td>_010_01_121</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT25</td><td>{7889626E-779C-4BC0-91E2-82D7DA676D5E}</td><td>_010_03_191</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT26</td><td>{494CAC0C-5FAE-455A-BCAF-F6C457EB8E6E}</td><td>_013_07_15</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT27</td><td>{DC06494B-CDE3-4D0E-89F3-9DBE76A09B25}</td><td>ALTO1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT28</td><td>{28BC6D17-9DFA-4FA2-91D6-765A2132A0E1}</td><td>IMGEXTRACTOR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{5A69BD55-36D6-4F79-8E93-BF70FE5C2A3D}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{F12FB6C1-BFE0-4F7A-BADF-C8EC9362C5EB}</td><td>HELP</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{539E0B53-F11F-436F-9D47-E594994C8CCF}</td><td>SCHEMA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT6</td><td>{B6FE9478-92BF-4A84-8644-C163E5764DCF}</td><td>_009_03_16</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{A576E414-AAE3-4507-89DA-B46762BBB4C0}</td><td>_010_01_12</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{759B14DC-EF46-4748-A4DC-9A734CF91FD7}</td><td>_010_03_19</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{FE793C7D-0298-408A-8D1E-3D387D36F702}</td><td>ALTO</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ImageExtractor_1_1_26.exe</td><td>{21CE94C7-DEEE-40B9-AB5E-4A87CDAF683F}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>imageextractor_1_1_26.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>glut32.dll</td><td>{F4A48D06-F079-48D7-93F7-8B37BED6B4F5}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>glut32.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>jpeg62.dll</td><td>{90588BEF-A425-412D-997B-4361987DD2D4}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>jpeg62.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libimage.dll</td><td>{96CF72CF-BBE7-4457-8246-EF7239671FFC}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>libimage.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libpng13.dll</td><td>{94CDB4A0-FCF5-46B4-B810-94CF8FAD408C}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>libpng13.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libtiff3.dll</td><td>{107DF20F-4C65-4B8A-A39E-0AB46C5119BE}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>libtiff3.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>mfc90.dll</td><td>{B7EB6A67-444C-4302-8C86-5CBF429B9B75}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>mfc90u.dll</td><td>{AD3FDB3D-CA9B-43F7-8779-B109E6638B53}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfc90u.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>mfcm90.dll</td><td>{E8B6676F-A56E-4DA2-A109-71F4276DA236}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfcm90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>mfcm90u.dll</td><td>{1C574FDE-0AC2-423C-89A6-CD694E6AB7FE}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfcm90u.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>mfcm90ud.dll</td><td>{1CECD3B0-2EAB-4AAC-AFF3-FBC43C94A5BF}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfcm90ud.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcm90.dll</td><td>{E3E59606-84F7-41C7-B944-EB2FC9EECB2F}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>msvcm90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcp90.dll</td><td>{941481B1-251C-495E-A869-DBE051481C5F}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>msvcp90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcr90.dll</td><td>{C3142F1A-3C9D-4746-AB88-FD5B2B9CDF7B}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>msvcr90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msxml6.dll</td><td>{714DE259-ED68-4E45-AFD1-A2A244F01E7E}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>msxml6.dll</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>zlib1.dll</td><td>{E7F04A04-5382-4365-A8CA-C3E1E93B6DA5}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>zlib1.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{8826C9B4-5125-421A-9483-7FAD3712FDE2}</td><td>HELP</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{B5044719-0B34-4871-86CC-44812A88A184}</td><td>SCHEMA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT6</td><td>{2EF2354D-1211-4A2E-AE62-D9F68945F44E}</td><td>_009_03_16</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{CCDB5726-4B07-4E62-850E-613254B44757}</td><td>_010_01_12</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{BFCA4ADD-96EC-400F-9A55-1553AFB63C04}</td><td>_010_03_19</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{29613386-D97F-4058-BD53-5B0DA7030BFA}</td><td>ALTO</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ImageExtractor.exe</td><td>{81E82C1B-9CEB-44F9-931A-A8FD79083544}</td><td>IMGEXTRACTOR</td><td>2</td><td/><td>imageextractor.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ImageExtractor_1_1_26.exe</td><td>{33A91A0A-5EFF-4B05-B289-9A6E331DC60B}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>imageextractor_1_1_26.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>glut32.dll</td><td>{D365A745-2562-4503-9956-F27D92D43C7B}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>glut32.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>glut32.dll1</td><td>{464F66A5-13D0-4AE8-B859-4171ED28775D}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>glut32.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>jpeg62.dll</td><td>{91E982A7-27D1-4393-A62D-7327EA92F4AD}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>jpeg62.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>jpeg62.dll1</td><td>{0CC94BB2-ADB8-465F-99BA-D04ED01303F3}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>jpeg62.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libimage.dll</td><td>{63B5D8B6-ABE5-4E65-A996-FAE33BACC022}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>libimage.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libimage.dll1</td><td>{1162EB5F-E8FE-4175-97F3-0DC9AC3F74BA}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>libimage.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libpng13.dll</td><td>{1AFE2275-36FC-4016-ADFB-CEA8C99CD1F1}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>libpng13.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libpng13.dll1</td><td>{02D550A7-AE21-4019-B758-405C315B04F5}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>libpng13.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libtiff3.dll</td><td>{C0795BB9-009A-45AA-8D1D-115C22C556AD}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>libtiff3.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libtiff3.dll1</td><td>{27F3E592-FA32-475C-8603-BC702A3E8B00}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>libtiff3.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfc110.dll</td><td>{CFE6711B-291E-4D8E-AA7E-4D567A5A0A4A}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>mfc110.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfc110u.dll</td><td>{E3EBC732-4F65-4A6E-8494-FCEF460733D1}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>mfc110u.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfc90.dll</td><td>{1213D204-DCAB-460D-BEF3-DB75739F7C91}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfc90u.dll</td><td>{F8529547-2138-411B-9DBA-E771A8AD21EB}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfc90u.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfcm110.dll</td><td>{F8E5C011-5F95-4200-B907-F808AC372291}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>mfcm110.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfcm110u.dll</td><td>{874B4459-B3C3-4741-AFE8-3425FADF1CBB}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>mfcm110u.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfcm90.dll</td><td>{37625FA6-64D7-4602-8425-9DD79DBEADEC}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfcm90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfcm90u.dll</td><td>{232C130F-D964-4493-8D22-F161B4E9927F}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfcm90u.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfcm90ud.dll</td><td>{46FDCBC2-9565-4156-90A2-ECCDB32EFD75}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>mfcm90ud.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcm90.dll</td><td>{4EA736DA-A433-4B89-8BDE-3932CD7B772A}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>msvcm90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcp90.dll</td><td>{EA2A71D9-6DA9-4E4A-A184-92775178088C}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>msvcp90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcr90.dll</td><td>{98E73387-9992-4AE5-B199-58F45227246A}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>msvcr90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msxml6.dll</td><td>{2E041DCD-760E-41E0-87FD-C6742289A9DA}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>msxml6.dll</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msxml6.dll1</td><td>{E6324A84-8C50-4795-AF2F-20BDC1607F1A}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>msxml6.dll1</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>opencv_core246.dll</td><td>{0895D2ED-5E37-403C-B638-08F8F9FC26F0}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>opencv_core246.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>opencv_highgui246.dll</td><td>{67E213B6-0332-42B8-9F56-EAFBE216FFEE}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>opencv_highgui246.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>opencv_imgproc246.dll</td><td>{90B2948C-6207-4D59-818B-A586513829FB}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>opencv_imgproc246.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>opencv_photo246.dll</td><td>{F88CBE4B-886E-4AC3-B44F-BB82A75E413C}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>opencv_photo246.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>zlib1.dll</td><td>{D66B4622-FC33-4C58-B8C4-04D2EF194434}</td><td>IMAGEEXTRACTOR_1.1</td><td>2</td><td/><td>zlib1.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>zlib1.dll1</td><td>{7D8D9648-99A6-4F28-A1D4-C22DFB27A948}</td><td>EXTRACTOREXPORTER_1.3</td><td>2</td><td/><td>zlib1.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1080,14 +1113,125 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>ALTO</td><td>ISX_DEFAULTCOMPONENT9</td></row>
+		<row><td>ALTO1</td><td>ISX_DEFAULTCOMPONENT27</td></row>
+		<row><td>BATCH</td><td>ISX_DEFAULTCOMPONENT16</td></row>
+		<row><td>DATA</td><td>ISX_DEFAULTCOMPONENT19</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>ExtractorExporter_1_3_55.exe</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>ISX_DEFAULTCOMPONENT15</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>glut32.dll1</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>jpeg62.dll1</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>libimage.dll1</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>libpng13.dll1</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>libtiff3.dll1</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>mfc110.dll</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>mfc110u.dll</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>mfcm110.dll</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>mfcm110u.dll</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>msxml6.dll1</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>opencv_core246.dll</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>opencv_highgui246.dll</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>opencv_imgproc246.dll</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>opencv_photo246.dll</td></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>zlib1.dll1</td></row>
+		<row><td>FRANKEN_1</td><td>ISX_DEFAULTCOMPONENT1</td></row>
+		<row><td>GAMERA</td><td>ISX_DEFAULTCOMPONENT20</td></row>
 		<row><td>GLYPHEXTRACTION</td><td>ISX_DEFAULTCOMPONENT2</td></row>
+		<row><td>HELP</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>HELP1</td><td>ISX_DEFAULTCOMPONENT21</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>ImageExtractor_1_1_26.exe</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>glut32.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>jpeg62.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>libimage.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>libpng13.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>libtiff3.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>mfc90.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>mfc90u.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>mfcm90.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>mfcm90u.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>mfcm90ud.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>msvcm90.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>msvcp90.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>msvcr90.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>msxml6.dll</td></row>
+		<row><td>IMAGEEXTRACTOR_1.1</td><td>zlib1.dll</td></row>
+		<row><td>IMGEXTRACTOR</td><td>BitMiracle.LibTiff.NET.dll</td></row>
+		<row><td>IMGEXTRACTOR</td><td>CommandLine.dll</td></row>
+		<row><td>IMGEXTRACTOR</td><td>ISX_DEFAULTCOMPONENT28</td></row>
+		<row><td>IMGEXTRACTOR</td><td>ImageExtractor.exe</td></row>
+		<row><td>INPUT</td><td>ISX_DEFAULTCOMPONENT17</td></row>
+		<row><td>INSTALLDIR</td><td>BitMiracle.LibTiff.NET.dll</td></row>
+		<row><td>INSTALLDIR</td><td>CommandLine.dll</td></row>
+		<row><td>INSTALLDIR</td><td>ExtractorExporter_1_3_55.exe</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT14</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT15</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT16</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT17</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT18</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT19</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT20</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT21</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT22</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT23</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT24</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT25</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT26</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT27</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT28</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT5</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT6</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT7</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT8</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT9</td></row>
+		<row><td>INSTALLDIR</td><td>ImageExtractor.exe</td></row>
+		<row><td>INSTALLDIR</td><td>ImageExtractor_1_1_26.exe</td></row>
+		<row><td>INSTALLDIR</td><td>glut32.dll</td></row>
+		<row><td>INSTALLDIR</td><td>glut32.dll1</td></row>
+		<row><td>INSTALLDIR</td><td>jpeg62.dll</td></row>
+		<row><td>INSTALLDIR</td><td>jpeg62.dll1</td></row>
+		<row><td>INSTALLDIR</td><td>libimage.dll</td></row>
+		<row><td>INSTALLDIR</td><td>libimage.dll1</td></row>
+		<row><td>INSTALLDIR</td><td>libpng13.dll</td></row>
+		<row><td>INSTALLDIR</td><td>libpng13.dll1</td></row>
+		<row><td>INSTALLDIR</td><td>libtiff3.dll</td></row>
+		<row><td>INSTALLDIR</td><td>libtiff3.dll1</td></row>
+		<row><td>INSTALLDIR</td><td>mfc110.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfc110u.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfc90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfc90u.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfcm110.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfcm110u.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfcm90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfcm90u.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfcm90ud.dll</td></row>
+		<row><td>INSTALLDIR</td><td>msvcm90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>msvcp90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>msvcr90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>msxml6.dll</td></row>
+		<row><td>INSTALLDIR</td><td>msxml6.dll1</td></row>
+		<row><td>INSTALLDIR</td><td>opencv_core246.dll</td></row>
+		<row><td>INSTALLDIR</td><td>opencv_highgui246.dll</td></row>
+		<row><td>INSTALLDIR</td><td>opencv_imgproc246.dll</td></row>
+		<row><td>INSTALLDIR</td><td>opencv_photo246.dll</td></row>
+		<row><td>INSTALLDIR</td><td>zlib1.dll</td></row>
+		<row><td>INSTALLDIR</td><td>zlib1.dll1</td></row>
 		<row><td>OUTPUT</td><td>ISX_DEFAULTCOMPONENT10</td></row>
+		<row><td>OUTPUT1</td><td>ISX_DEFAULTCOMPONENT18</td></row>
 		<row><td>PersonalFolder</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>SCHEMA</td><td>ISX_DEFAULTCOMPONENT5</td></row>
+		<row><td>SCHEMA1</td><td>ISX_DEFAULTCOMPONENT22</td></row>
 		<row><td>TEMP</td><td>ISX_DEFAULTCOMPONENT11</td></row>
 		<row><td>TIFFBOXPAIRS</td><td>ISX_DEFAULTCOMPONENT12</td></row>
 		<row><td>TRAININGLIBRARIES</td><td>ISX_DEFAULTCOMPONENT13</td></row>
+		<row><td>_009_03_16</td><td>ISX_DEFAULTCOMPONENT6</td></row>
+		<row><td>_009_03_161</td><td>ISX_DEFAULTCOMPONENT23</td></row>
+		<row><td>_010_01_12</td><td>ISX_DEFAULTCOMPONENT7</td></row>
+		<row><td>_010_01_121</td><td>ISX_DEFAULTCOMPONENT24</td></row>
+		<row><td>_010_03_19</td><td>ISX_DEFAULTCOMPONENT8</td></row>
+		<row><td>_010_03_191</td><td>ISX_DEFAULTCOMPONENT25</td></row>
+		<row><td>_013_07_15</td><td>ISX_DEFAULTCOMPONENT26</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1168,22 +1312,30 @@
 		<col def="S255">ISFolderName</col>
 		<row><td>ALLUSERSPROFILE</td><td>TARGETDIR</td><td>.:ALLUSE~1|All Users</td><td/><td>0</td><td/></row>
 		<row><td>ALTO</td><td>SCHEMA</td><td>ALTO</td><td/><td>0</td><td/></row>
+		<row><td>ALTO1</td><td>SCHEMA1</td><td>ALTO</td><td/><td>0</td><td/></row>
 		<row><td>AdminToolsFolder</td><td>TARGETDIR</td><td>.:Admint~1|AdminTools</td><td/><td>0</td><td/></row>
 		<row><td>AppDataFolder</td><td>TARGETDIR</td><td>.:APPLIC~1|Application Data</td><td/><td>0</td><td/></row>
+		<row><td>BATCH</td><td>EXTRACTOREXPORTER_1.3</td><td>batch</td><td/><td>0</td><td/></row>
 		<row><td>CommonAppDataFolder</td><td>TARGETDIR</td><td>.:Common~1|CommonAppData</td><td/><td>0</td><td/></row>
 		<row><td>CommonFiles64Folder</td><td>TARGETDIR</td><td>.:Common64</td><td/><td>0</td><td/></row>
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
+		<row><td>DATA</td><td>EXTRACTOREXPORTER_1.3</td><td>data</td><td/><td>0</td><td/></row>
 		<row><td>DATABASEDIR</td><td>ISYourDataBaseDir</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>DesktopFolder</td><td>TARGETDIR</td><td>.:Desktop</td><td/><td>3</td><td/></row>
+		<row><td>EXTRACTOREXPORTER_1.3</td><td>GLYPHEXTRACTION</td><td>EXTRAC~1|ExtractorExporter 1.3</td><td/><td>0</td><td/></row>
 		<row><td>FRANKEN_</td><td>IDHMC</td><td>Franken+</td><td/><td>0</td><td/></row>
 		<row><td>FRANKEN_1</td><td>PersonalFolder</td><td>Franken+</td><td/><td>0</td><td/></row>
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
+		<row><td>GAMERA</td><td>DATA</td><td>Gamera</td><td/><td>0</td><td/></row>
 		<row><td>GLYPHEXTRACTION</td><td>FRANKEN_1</td><td>GLYPHE~1|GlyphExtraction</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
 		<row><td>HELP</td><td>IMAGEEXTRACTOR_1.1</td><td>help</td><td/><td>0</td><td/></row>
+		<row><td>HELP1</td><td>EXTRACTOREXPORTER_1.3</td><td>help</td><td/><td>0</td><td/></row>
 		<row><td>IDHMC</td><td>ProgramFilesFolder</td><td>IDHMC</td><td/><td>0</td><td/></row>
 		<row><td>IMAGEEXTRACTOR_1.1</td><td>GLYPHEXTRACTION</td><td>IMAGEE~1|ImageExtractor 1.1</td><td/><td>0</td><td/></row>
+		<row><td>IMGEXTRACTOR</td><td>GLYPHEXTRACTION</td><td>IMGEXT~1|ImgExtractor</td><td/><td>0</td><td/></row>
+		<row><td>INPUT</td><td>BATCH</td><td>Input</td><td/><td>0</td><td/></row>
 		<row><td>INSTALLDIR</td><td>FRANKEN_</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
@@ -1194,6 +1346,7 @@
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
 		<row><td>NetHoodFolder</td><td>TARGETDIR</td><td>.:NetHood</td><td/><td>0</td><td/></row>
 		<row><td>OUTPUT</td><td>GLYPHEXTRACTION</td><td>Output</td><td/><td>0</td><td/></row>
+		<row><td>OUTPUT1</td><td>BATCH</td><td>Output</td><td/><td>0</td><td/></row>
 		<row><td>PersonalFolder</td><td>TARGETDIR</td><td>.:Personal</td><td/><td>0</td><td/></row>
 		<row><td>PrimaryVolumePath</td><td>TARGETDIR</td><td>.:Primar~1|PrimaryVolumePath</td><td/><td>0</td><td/></row>
 		<row><td>PrintHoodFolder</td><td>TARGETDIR</td><td>.:PRINTH~1|PrintHood</td><td/><td>0</td><td/></row>
@@ -1202,6 +1355,7 @@
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
 		<row><td>SCHEMA</td><td>IMAGEEXTRACTOR_1.1</td><td>schema</td><td/><td>0</td><td/></row>
+		<row><td>SCHEMA1</td><td>EXTRACTOREXPORTER_1.3</td><td>schema</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
 		<row><td>StartupFolder</td><td>TARGETDIR</td><td>.:StartUp</td><td/><td>3</td><td/></row>
@@ -1218,8 +1372,12 @@
 		<row><td>WindowsFolder</td><td>TARGETDIR</td><td>.:Windows</td><td/><td>0</td><td/></row>
 		<row><td>WindowsVolume</td><td>TARGETDIR</td><td>.:WinRoot</td><td/><td>0</td><td/></row>
 		<row><td>_009_03_16</td><td>SCHEMA</td><td>2009-0~1|2009-03-16</td><td/><td>0</td><td/></row>
+		<row><td>_009_03_161</td><td>SCHEMA1</td><td>2009-0~1|2009-03-16</td><td/><td>0</td><td/></row>
 		<row><td>_010_01_12</td><td>SCHEMA</td><td>2010-0~1|2010-01-12</td><td/><td>0</td><td/></row>
+		<row><td>_010_01_121</td><td>SCHEMA1</td><td>2010-0~1|2010-01-12</td><td/><td>0</td><td/></row>
 		<row><td>_010_03_19</td><td>SCHEMA</td><td>2010-0~1|2010-03-19</td><td/><td>0</td><td/></row>
+		<row><td>_010_03_191</td><td>SCHEMA1</td><td>2010-0~1|2010-03-19</td><td/><td>0</td><td/></row>
+		<row><td>_013_07_15</td><td>SCHEMA1</td><td>2013-0~1|2013-07-15</td><td/><td>0</td><td/></row>
 		<row><td>franke_1_franken_</td><td>idhmc</td><td>FRANKE~1|Franken+</td><td/><td>1</td><td/></row>
 		<row><td>idhmc</td><td>ProgramMenuFolder</td><td>IDHMC</td><td/><td>1</td><td/></row>
 	</table>
@@ -1913,6 +2071,9 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>AlwaysInstall</td><td>BitMiracle.LibTiff.NET.dll</td></row>
+		<row><td>AlwaysInstall</td><td>CommandLine.dll</td></row>
+		<row><td>AlwaysInstall</td><td>ExtractorExporter_1_3_55.exe</td></row>
 		<row><td>AlwaysInstall</td><td>Franken_.Primary_output</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
@@ -1921,7 +2082,21 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT12</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT13</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT14</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT15</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT16</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT17</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT18</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT19</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT20</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT21</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT22</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT23</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT24</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT25</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT26</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT27</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT28</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT5</td></row>
@@ -1929,14 +2104,24 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT7</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT8</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT9</td></row>
+		<row><td>AlwaysInstall</td><td>ImageExtractor.exe</td></row>
 		<row><td>AlwaysInstall</td><td>ImageExtractor_1_1_26.exe</td></row>
 		<row><td>AlwaysInstall</td><td>glut32.dll</td></row>
+		<row><td>AlwaysInstall</td><td>glut32.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>jpeg62.dll</td></row>
+		<row><td>AlwaysInstall</td><td>jpeg62.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>libimage.dll</td></row>
+		<row><td>AlwaysInstall</td><td>libimage.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>libpng13.dll</td></row>
+		<row><td>AlwaysInstall</td><td>libpng13.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>libtiff3.dll</td></row>
+		<row><td>AlwaysInstall</td><td>libtiff3.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>mfc110.dll</td></row>
+		<row><td>AlwaysInstall</td><td>mfc110u.dll</td></row>
 		<row><td>AlwaysInstall</td><td>mfc90.dll</td></row>
 		<row><td>AlwaysInstall</td><td>mfc90u.dll</td></row>
+		<row><td>AlwaysInstall</td><td>mfcm110.dll</td></row>
+		<row><td>AlwaysInstall</td><td>mfcm110u.dll</td></row>
 		<row><td>AlwaysInstall</td><td>mfcm90.dll</td></row>
 		<row><td>AlwaysInstall</td><td>mfcm90u.dll</td></row>
 		<row><td>AlwaysInstall</td><td>mfcm90ud.dll</td></row>
@@ -1944,7 +2129,13 @@
 		<row><td>AlwaysInstall</td><td>msvcp90.dll</td></row>
 		<row><td>AlwaysInstall</td><td>msvcr90.dll</td></row>
 		<row><td>AlwaysInstall</td><td>msxml6.dll</td></row>
+		<row><td>AlwaysInstall</td><td>msxml6.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>opencv_core246.dll</td></row>
+		<row><td>AlwaysInstall</td><td>opencv_highgui246.dll</td></row>
+		<row><td>AlwaysInstall</td><td>opencv_imgproc246.dll</td></row>
+		<row><td>AlwaysInstall</td><td>opencv_photo246.dll</td></row>
 		<row><td>AlwaysInstall</td><td>zlib1.dll</td></row>
+		<row><td>AlwaysInstall</td><td>zlib1.dll1</td></row>
 	</table>
 
 	<table name="File">
@@ -1959,34 +2150,70 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>alto_1_4.xsd</td><td>ISX_DEFAULTCOMPONENT9</td><td>alto-1-4.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\ALTO\alto-1-4.xsd</td><td>1</td><td/></row>
-		<row><td>alto_v2.0.xsd</td><td>ISX_DEFAULTCOMPONENT9</td><td>ALTO-V~1.XSD|alto-v2.0.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\ALTO\alto-v2.0.xsd</td><td>1</td><td/></row>
-		<row><td>copyright.txt</td><td>ISX_DEFAULTCOMPONENT3</td><td>COPYRI~1.TXT|copyright.txt</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\copyright.txt</td><td>1</td><td/></row>
-		<row><td>db.conf</td><td>ISX_DEFAULTCOMPONENT1</td><td>DBE4EF~1.CON|db.conf</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\db.conf</td><td>1</td><td/></row>
+		<row><td>alto_1_4.xsd</td><td>ISX_DEFAULTCOMPONENT9</td><td>alto-1-4.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\ALTO\alto-1-4.xsd</td><td>1</td><td/></row>
+		<row><td>alto_1_4.xsd1</td><td>ISX_DEFAULTCOMPONENT27</td><td>alto-1-4.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\schema\ALTO\alto-1-4.xsd</td><td>1</td><td/></row>
+		<row><td>alto_v2.0.xsd</td><td>ISX_DEFAULTCOMPONENT9</td><td>ALTO-V~1.XSD|alto-v2.0.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\ALTO\alto-v2.0.xsd</td><td>1</td><td/></row>
+		<row><td>alto_v2.0.xsd1</td><td>ISX_DEFAULTCOMPONENT27</td><td>ALTO-V~1.XSD|alto-v2.0.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\schema\ALTO\alto-v2.0.xsd</td><td>1</td><td/></row>
+		<row><td>alto_v2.1.xsd</td><td>ISX_DEFAULTCOMPONENT27</td><td>ALTO-V~1.XSD|alto-v2.1.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\schema\ALTO\alto-v2.1.xsd</td><td>1</td><td/></row>
+		<row><td>bitmiracle.libtiff.net.dll</td><td>BitMiracle.LibTiff.NET.dll</td><td>BITMIR~1.DLL|BitMiracle.LibTiff.NET.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ImgExtractor\BitMiracle.LibTiff.NET.dll</td><td>1</td><td/></row>
+		<row><td>commandline.dll</td><td>CommandLine.dll</td><td>COMMAN~1.DLL|CommandLine.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ImgExtractor\CommandLine.dll</td><td>1</td><td/></row>
+		<row><td>copyright.txt</td><td>ISX_DEFAULTCOMPONENT3</td><td>COPYRI~1.TXT|copyright.txt</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\copyright.txt</td><td>1</td><td/></row>
+		<row><td>copyright.txt1</td><td>ISX_DEFAULTCOMPONENT15</td><td>COPYRI~1.TXT|copyright.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\copyright.txt</td><td>1</td><td/></row>
+		<row><td>db.conf</td><td>ISX_DEFAULTCOMPONENT1</td><td>DBE4EF~1.CON|db.conf</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\db.conf</td><td>1</td><td/></row>
+		<row><td>defaultcharacternames.xml</td><td>ISX_DEFAULTCOMPONENT20</td><td>DEFAUL~1.XML|defaultCharacterNames.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\data\Gamera\defaultCharacterNames.xml</td><td>1</td><td/></row>
+		<row><td>exporter_params.ini</td><td>ISX_DEFAULTCOMPONENT16</td><td>EXPORT~1.INI|exporter_params.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\batch\exporter_params.ini</td><td>1</td><td/></row>
+		<row><td>extractor_and_exporter_user_</td><td>ISX_DEFAULTCOMPONENT21</td><td>EXTRAC~1.PDF|Extractor and Exporter User Guide.pdf</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\help\Extractor and Exporter User Guide.pdf</td><td>1</td><td/></row>
+		<row><td>extractorexporter_1_3_55.exe</td><td>ExtractorExporter_1_3_55.exe</td><td>EXTRAC~1.EXE|ExtractorExporter-1-3-55.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\ExtractorExporter-1-3-55.exe</td><td>1</td><td/></row>
 		<row><td>franken_.primary_output</td><td>Franken_.Primary_output</td><td>Franken+.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Franken+&gt;|Built</td><td>3</td><td/></row>
-		<row><td>glut32.dll</td><td>glut32.dll</td><td>glut32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\glut32.dll</td><td>1</td><td/></row>
-		<row><td>image_and_text_extractor_use</td><td>ISX_DEFAULTCOMPONENT4</td><td>IMAGEA~1.PDF|Image and Text Extractor User Guide.pdf</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\help\Image and Text Extractor User Guide.pdf</td><td>1</td><td/></row>
-		<row><td>imageextractor_1_1_26.exe</td><td>ImageExtractor_1_1_26.exe</td><td>IMAGEE~1.EXE|ImageExtractor-1-1-26.exe</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\ImageExtractor-1-1-26.exe</td><td>1</td><td/></row>
-		<row><td>jpeg62.dll</td><td>jpeg62.dll</td><td>jpeg62.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\jpeg62.dll</td><td>1</td><td/></row>
-		<row><td>libimage.dll</td><td>libimage.dll</td><td>libimage.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\libimage.dll</td><td>1</td><td/></row>
-		<row><td>libpng13.dll</td><td>libpng13.dll</td><td>libpng13.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\libpng13.dll</td><td>1</td><td/></row>
-		<row><td>libtiff3.dll</td><td>libtiff3.dll</td><td>libtiff3.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\libtiff3.dll</td><td>1</td><td/></row>
-		<row><td>mfc90.dll</td><td>mfc90.dll</td><td>mfc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfc90.dll</td><td>1</td><td/></row>
-		<row><td>mfc90u.dll</td><td>mfc90u.dll</td><td>mfc90u.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfc90u.dll</td><td>1</td><td/></row>
-		<row><td>mfcm90.dll</td><td>mfcm90.dll</td><td>mfcm90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfcm90.dll</td><td>1</td><td/></row>
-		<row><td>mfcm90u.dll</td><td>mfcm90u.dll</td><td>mfcm90u.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfcm90u.dll</td><td>1</td><td/></row>
-		<row><td>mfcm90ud.dll</td><td>mfcm90ud.dll</td><td>mfcm90ud.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfcm90ud.dll</td><td>1</td><td/></row>
-		<row><td>microsoft.vc90.atl.manifest</td><td>ISX_DEFAULTCOMPONENT3</td><td>MICROS~1.MAN|Microsoft.VC90.ATL.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\Microsoft.VC90.ATL.manifest</td><td>1</td><td/></row>
-		<row><td>microsoft.vc90.crt.manifest</td><td>ISX_DEFAULTCOMPONENT3</td><td>MICROS~1.MAN|Microsoft.VC90.CRT.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\Microsoft.VC90.CRT.manifest</td><td>1</td><td/></row>
-		<row><td>microsoft.vc90.mfc.manifest</td><td>ISX_DEFAULTCOMPONENT3</td><td>MICROS~1.MAN|Microsoft.VC90.MFC.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\Microsoft.VC90.MFC.manifest</td><td>1</td><td/></row>
-		<row><td>msvcm90.dll</td><td>msvcm90.dll</td><td>msvcm90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\msvcm90.dll</td><td>1</td><td/></row>
-		<row><td>msvcp90.dll</td><td>msvcp90.dll</td><td>msvcp90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\msvcp90.dll</td><td>1</td><td/></row>
-		<row><td>msvcr90.dll</td><td>msvcr90.dll</td><td>msvcr90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\msvcr90.dll</td><td>1</td><td/></row>
-		<row><td>msxml6.dll</td><td>msxml6.dll</td><td>msxml6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\msxml6.dll</td><td>1</td><td/></row>
-		<row><td>pagecontent.xsd</td><td>ISX_DEFAULTCOMPONENT6</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\2009-03-16\pagecontent.xsd</td><td>1</td><td/></row>
-		<row><td>pagecontent.xsd1</td><td>ISX_DEFAULTCOMPONENT7</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\2010-01-12\pagecontent.xsd</td><td>1</td><td/></row>
-		<row><td>pagecontent.xsd2</td><td>ISX_DEFAULTCOMPONENT8</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\2010-03-19\pagecontent.xsd</td><td>1</td><td/></row>
-		<row><td>zlib1.dll</td><td>zlib1.dll</td><td>zlib1.dll</td><td>0</td><td/><td/><td/><td>1</td><td>G:\Dropbox\Projects\Franken+\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\zlib1.dll</td><td>1</td><td/></row>
+		<row><td>glut32.dll</td><td>glut32.dll</td><td>glut32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\glut32.dll</td><td>1</td><td/></row>
+		<row><td>glut32.dll1</td><td>glut32.dll1</td><td>glut32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\glut32.dll</td><td>1</td><td/></row>
+		<row><td>image_and_text_extractor_use</td><td>ISX_DEFAULTCOMPONENT4</td><td>IMAGEA~1.PDF|Image and Text Extractor User Guide.pdf</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\help\Image and Text Extractor User Guide.pdf</td><td>1</td><td/></row>
+		<row><td>imageextractor.exe</td><td>ImageExtractor.exe</td><td>IMAGEE~1.EXE|ImageExtractor.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ImgExtractor\ImageExtractor.exe</td><td>1</td><td/></row>
+		<row><td>imageextractor_1_1_26.exe</td><td>ImageExtractor_1_1_26.exe</td><td>IMAGEE~1.EXE|ImageExtractor-1-1-26.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\ImageExtractor-1-1-26.exe</td><td>1</td><td/></row>
+		<row><td>jpeg62.dll</td><td>jpeg62.dll</td><td>jpeg62.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\jpeg62.dll</td><td>1</td><td/></row>
+		<row><td>jpeg62.dll1</td><td>jpeg62.dll1</td><td>jpeg62.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\jpeg62.dll</td><td>1</td><td/></row>
+		<row><td>libimage.dll</td><td>libimage.dll</td><td>libimage.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\libimage.dll</td><td>1</td><td/></row>
+		<row><td>libimage.dll1</td><td>libimage.dll1</td><td>libimage.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\libimage.dll</td><td>1</td><td/></row>
+		<row><td>libpng13.dll</td><td>libpng13.dll</td><td>libpng13.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\libpng13.dll</td><td>1</td><td/></row>
+		<row><td>libpng13.dll1</td><td>libpng13.dll1</td><td>libpng13.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\libpng13.dll</td><td>1</td><td/></row>
+		<row><td>libtiff3.dll</td><td>libtiff3.dll</td><td>libtiff3.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\libtiff3.dll</td><td>1</td><td/></row>
+		<row><td>libtiff3.dll1</td><td>libtiff3.dll1</td><td>libtiff3.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\libtiff3.dll</td><td>1</td><td/></row>
+		<row><td>mfc110.dll</td><td>mfc110.dll</td><td>mfc110.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\mfc110.dll</td><td>1</td><td/></row>
+		<row><td>mfc110u.dll</td><td>mfc110u.dll</td><td>mfc110u.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\mfc110u.dll</td><td>1</td><td/></row>
+		<row><td>mfc90.dll</td><td>mfc90.dll</td><td>mfc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfc90.dll</td><td>1</td><td/></row>
+		<row><td>mfc90u.dll</td><td>mfc90u.dll</td><td>mfc90u.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfc90u.dll</td><td>1</td><td/></row>
+		<row><td>mfcm110.dll</td><td>mfcm110.dll</td><td>mfcm110.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\mfcm110.dll</td><td>1</td><td/></row>
+		<row><td>mfcm110u.dll</td><td>mfcm110u.dll</td><td>mfcm110u.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\mfcm110u.dll</td><td>1</td><td/></row>
+		<row><td>mfcm90.dll</td><td>mfcm90.dll</td><td>mfcm90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfcm90.dll</td><td>1</td><td/></row>
+		<row><td>mfcm90u.dll</td><td>mfcm90u.dll</td><td>mfcm90u.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfcm90u.dll</td><td>1</td><td/></row>
+		<row><td>mfcm90ud.dll</td><td>mfcm90ud.dll</td><td>mfcm90ud.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\mfcm90ud.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.vc90.atl.manifest</td><td>ISX_DEFAULTCOMPONENT3</td><td>MICROS~1.MAN|Microsoft.VC90.ATL.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\Microsoft.VC90.ATL.manifest</td><td>1</td><td/></row>
+		<row><td>microsoft.vc90.crt.manifest</td><td>ISX_DEFAULTCOMPONENT3</td><td>MICROS~1.MAN|Microsoft.VC90.CRT.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\Microsoft.VC90.CRT.manifest</td><td>1</td><td/></row>
+		<row><td>microsoft.vc90.mfc.manifest</td><td>ISX_DEFAULTCOMPONENT3</td><td>MICROS~1.MAN|Microsoft.VC90.MFC.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\Microsoft.VC90.MFC.manifest</td><td>1</td><td/></row>
+		<row><td>msvcm90.dll</td><td>msvcm90.dll</td><td>msvcm90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\msvcm90.dll</td><td>1</td><td/></row>
+		<row><td>msvcp90.dll</td><td>msvcp90.dll</td><td>msvcp90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\msvcp90.dll</td><td>1</td><td/></row>
+		<row><td>msvcr90.dll</td><td>msvcr90.dll</td><td>msvcr90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\msvcr90.dll</td><td>1</td><td/></row>
+		<row><td>msxml6.dll</td><td>msxml6.dll</td><td>msxml6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\msxml6.dll</td><td>1</td><td/></row>
+		<row><td>msxml6.dll1</td><td>msxml6.dll1</td><td>msxml6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\msxml6.dll</td><td>1</td><td/></row>
+		<row><td>opencv_core246.dll</td><td>opencv_core246.dll</td><td>OPENCV~1.DLL|opencv_core246.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\opencv_core246.dll</td><td>1</td><td/></row>
+		<row><td>opencv_highgui246.dll</td><td>opencv_highgui246.dll</td><td>OPENCV~1.DLL|opencv_highgui246.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\opencv_highgui246.dll</td><td>1</td><td/></row>
+		<row><td>opencv_imgproc246.dll</td><td>opencv_imgproc246.dll</td><td>OPENCV~1.DLL|opencv_imgproc246.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\opencv_imgproc246.dll</td><td>1</td><td/></row>
+		<row><td>opencv_photo246.dll</td><td>opencv_photo246.dll</td><td>OPENCV~1.DLL|opencv_photo246.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\opencv_photo246.dll</td><td>1</td><td/></row>
+		<row><td>pagecontent.xsd</td><td>ISX_DEFAULTCOMPONENT6</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\2009-03-16\pagecontent.xsd</td><td>1</td><td/></row>
+		<row><td>pagecontent.xsd1</td><td>ISX_DEFAULTCOMPONENT7</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\2010-01-12\pagecontent.xsd</td><td>1</td><td/></row>
+		<row><td>pagecontent.xsd2</td><td>ISX_DEFAULTCOMPONENT8</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\schema\2010-03-19\pagecontent.xsd</td><td>1</td><td/></row>
+		<row><td>pagecontent.xsd3</td><td>ISX_DEFAULTCOMPONENT23</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\schema\2009-03-16\pagecontent.xsd</td><td>1</td><td/></row>
+		<row><td>pagecontent.xsd4</td><td>ISX_DEFAULTCOMPONENT24</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\schema\2010-01-12\pagecontent.xsd</td><td>1</td><td/></row>
+		<row><td>pagecontent.xsd5</td><td>ISX_DEFAULTCOMPONENT25</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\schema\2010-03-19\pagecontent.xsd</td><td>1</td><td/></row>
+		<row><td>pagecontent.xsd6</td><td>ISX_DEFAULTCOMPONENT26</td><td>PAGECO~1.XSD|pagecontent.xsd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\schema\2013-07-15\pagecontent.xsd</td><td>1</td><td/></row>
+		<row><td>process_folder_export_gamera</td><td>ISX_DEFAULTCOMPONENT16</td><td>PROCES~1.BAT|process_folder_export_gamera_xml.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\batch\process_folder_export_gamera_xml.bat</td><td>1</td><td/></row>
+		<row><td>process_folder_export_region</td><td>ISX_DEFAULTCOMPONENT16</td><td>PROCES~1.BAT|process_folder_export_region_text.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\batch\process_folder_export_region_text.bat</td><td>1</td><td/></row>
+		<row><td>process_folder_export_text_l</td><td>ISX_DEFAULTCOMPONENT16</td><td>PROCES~1.BAT|process_folder_export_text_line_text.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\batch\process_folder_export_text_line_text.bat</td><td>1</td><td/></row>
+		<row><td>process_folder_extract_glyph</td><td>ISX_DEFAULTCOMPONENT16</td><td>PROCES~1.BAT|process_folder_extract_glyph_image_snippets.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\batch\process_folder_extract_glyph_image_snippets.bat</td><td>1</td><td/></row>
+		<row><td>process_folder_extract_image</td><td>ISX_DEFAULTCOMPONENT16</td><td>PROCES~1.BAT|process_folder_extract_image_snippets.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\batch\process_folder_extract_image_snippets.bat</td><td>1</td><td/></row>
+		<row><td>process_folder_extract_layou</td><td>ISX_DEFAULTCOMPONENT16</td><td>PROCES~1.BAT|process_folder_extract_layout_snippets.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\batch\process_folder_extract_layout_snippets.bat</td><td>1</td><td/></row>
+		<row><td>zlib1.dll</td><td>zlib1.dll</td><td>zlib1.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Projekte\FrankenPlus\Franken+\Deployables\GlyphExtraction\ImageExtractor 1.1\zlib1.dll</td><td>1</td><td/></row>
+		<row><td>zlib1.dll1</td><td>zlib1.dll1</td><td>zlib1.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\SvenL\Documents\Franken+\GlyphExtraction\ExtractorExporter 1.3\zlib1.dll</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2131,6 +2358,9 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
+		<row><td>BitMiracle.LibTiff.NET.dll</td><td/><td/><td>_BD55A053_3F4D_4D61_AAA8_827C025EE47B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CommandLine.dll</td><td/><td/><td>_2E0B5FCE_44C4_46CC_A177_16B0257D42AD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ExtractorExporter_1_3_55.exe</td><td/><td/><td>_42F652AF_B3FB_4F7E_A76B_B7548A82A37F_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Franken_.Primary_output</td><td/><td/><td>_97BF8075_660A_4F8D_8687_999A40BCDBDA_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_9AD0927F_44CC_4032_93AE_588743226AB5_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_77376C00_C37B_4810_82EE_7563775A8785_FILTER</td><td/><td/><td/><td/></row>
@@ -2139,30 +2369,60 @@
 		<row><td>ISX_DEFAULTCOMPONENT12</td><td/><td/><td>_4EAA369D_682F_4140_A9C3_59E51235206D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT13</td><td/><td/><td>_31B6A85D_A69E_4E09_A700_0BAD107B50AE_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT14</td><td/><td/><td>_664BE1DA_511C_47D6_8E93_76D0F83AF9C7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT15</td><td/><td/><td>_7E66561A_3E32_4925_A64E_3CA2DBC7E5AC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT16</td><td/><td/><td>_09F5BDA3_0F1B_4D2F_9277_0E0B9020A0AF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT17</td><td/><td/><td>_E50F5FCA_6583_48FD_A3EC_AD285DDC2F78_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT18</td><td/><td/><td>_80130E10_A7A8_451B_B266_04B5460EED85_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT19</td><td/><td/><td>_00387076_ABE1_4DBE_8CB4_BFACB918377D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_0E33A77C_52C2_49BF_86AC_F044541E060C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT20</td><td/><td/><td>_A8643DAB_7E86_4D0C_B325_D2C3957C2729_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT21</td><td/><td/><td>_6B7B6292_7336_421D_BBBD_1F5E561D2BFA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT22</td><td/><td/><td>_B526BC08_D49D_4620_A494_94D83CA0CE7A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT23</td><td/><td/><td>_ED8E00F4_AE9B_424B_8C91_690C05BC5042_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT24</td><td/><td/><td>_C953791D_CBB8_4768_9BF0_F802B6E30E4D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT25</td><td/><td/><td>_0527C584_8438_4278_918B_35D314D49E08_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT26</td><td/><td/><td>_C65099C8_D766_4B9C_9EB5_E442A182495D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT27</td><td/><td/><td>_7C432346_A3F8_4C62_8262_EFDC71140E9E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT28</td><td/><td/><td>_83021538_31FC_4C83_B5E7_B097ACC5D069_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_0A6325C6_B7CB_4AEC_AC56_E4A9BACA2F52_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_3B941252_F45F_440B_BB49_ABCE4BF48E27_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_FB61544E_6003_4650_85DB_C514F48E05CB_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT6</td><td/><td/><td>_BD20EF35_5851_41FB_B6D4_9AC9DE12DD91_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_CAFEC840_B69D_4497_8EB4_38C6E49EF0F4_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_6E3E8F4F_9C3B_4127_A235_01F8CFA92D48_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_BCABA386_59A6_4338_ADBD_AA3D37B0DBD3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ImageExtractor_1_1_26.exe</td><td/><td/><td>_553D57BD_6F81_4043_AF87_AC72517B2BF1_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>glut32.dll</td><td/><td/><td>_734A326D_A7D0_4385_8428_7E64F0A459E2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>jpeg62.dll</td><td/><td/><td>_0CC6CE09_3552_4338_BEA6_25E64360834B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libimage.dll</td><td/><td/><td>_99F077A2_6D1A_47D0_8AA4_7C22F0C5CA23_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libpng13.dll</td><td/><td/><td>_D09B59EF_4585_4F73_AE6D_A95EECB51174_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libtiff3.dll</td><td/><td/><td>_6CD7A749_4B15_4B8F_B8F0_FC2ED5E44891_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>mfc90.dll</td><td/><td/><td>_914B2298_9C91_45F3_B995_3089AA81A19E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>mfc90u.dll</td><td/><td/><td>_2341B801_C762_4037_9370_BB4008148AE1_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>mfcm90.dll</td><td/><td/><td>_21FC9E19_2B7E_401F_A2B2_DB2A777E0755_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>mfcm90u.dll</td><td/><td/><td>_26CDC188_AA42_4DC6_84B2_8242D73C543C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>mfcm90ud.dll</td><td/><td/><td>_20B49463_EAD0_4F71_8017_C6A03337B57D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msvcm90.dll</td><td/><td/><td>_DAC25A17_0B8E_4F88_916D_6CB28AA1B0BE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msvcp90.dll</td><td/><td/><td>_15AB9E34_FF0E_487C_8B6C_D143B4C3A679_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msvcr90.dll</td><td/><td/><td>_4837D78F_4210_4204_B06B_2CE3D6D63C9C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msxml6.dll</td><td/><td/><td>_3728EAE2_E9F1_4F69_B620_014DB6ABC800_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>zlib1.dll</td><td/><td/><td>_3C918238_D64E_4AA0_8F3A_F23C8D136D2F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_8C1C799E_9181_4E29_9BA5_C7D3C99988D6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_E5B30E52_BC9F_4BBC_B410_D1D8AAE0753B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT6</td><td/><td/><td>_98238F84_2F17_44A5_96BD_A41DC054D701_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_98A8D845_2113_4C1E_881A_DF53B253585E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_A992DF67_5E13_43A3_96A1_47C3039CE3E0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_9F44BB06_CC03_4584_83A3_44BF1BFCF193_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ImageExtractor.exe</td><td/><td/><td>_7E317078_3903_4264_BFE6_8AC772511498_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ImageExtractor_1_1_26.exe</td><td/><td/><td>_93DE80EF_6A9F_49DA_A08B_2D78C3341C4A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>glut32.dll</td><td/><td/><td>_95E334F1_C3A5_43C8_A52E_70619008899F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>glut32.dll1</td><td/><td/><td>_56FEE00D_12D2_4181_A139_32692D3681A5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>jpeg62.dll</td><td/><td/><td>_A105F011_51EF_4C8F_A842_B55F38CDF7AF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>jpeg62.dll1</td><td/><td/><td>_65349266_F482_4757_A6A0_9FC1B658037F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libimage.dll</td><td/><td/><td>_5D0C48EF_2758_4131_A2C4_35FD9C1A0B1E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libimage.dll1</td><td/><td/><td>_91DEEB2C_BA9E_4673_BA37_301E8B0C4223_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libpng13.dll</td><td/><td/><td>_9D34DED2_6A3C_4C10_A4E7_E120F5CC8950_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libpng13.dll1</td><td/><td/><td>_62DE50F4_62DA_4F9D_85E5_3AC70BE8E257_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libtiff3.dll</td><td/><td/><td>_7DF200F1_C7A1_4441_BCCC_936AD98DDDF8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libtiff3.dll1</td><td/><td/><td>_511E6D5E_E68B_4A9E_8A51_05F455803D4B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfc110.dll</td><td/><td/><td>_950E7FC8_B8CF_4FB1_B8C6_692C2CD155D3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfc110u.dll</td><td/><td/><td>_03B74101_AD12_46F4_8B32_CE79EB016081_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfc90.dll</td><td/><td/><td>_E1517016_DF22_484A_97D2_638C65CCEFC9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfc90u.dll</td><td/><td/><td>_2FAC0673_94C2_483D_B2C0_81653211A655_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfcm110.dll</td><td/><td/><td>_78ACD96F_046E_40A0_94DF_4CCC39FC7AC9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfcm110u.dll</td><td/><td/><td>_B8BC13BC_889E_431F_8AF2_D479EEEFFACF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfcm90.dll</td><td/><td/><td>_BFF34BE8_67D4_4C80_9649_8EC2B6D2909B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfcm90u.dll</td><td/><td/><td>_333F5469_F443_46E2_AE79_9C3DC3DF577A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfcm90ud.dll</td><td/><td/><td>_C5FFA089_10AD_467A_A807_21201E67B916_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcm90.dll</td><td/><td/><td>_EF682263_781E_486B_A062_83F6D93BAECE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcp90.dll</td><td/><td/><td>_46A0FB85_C709_4A5A_B4E5_62302EABB3C5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcr90.dll</td><td/><td/><td>_E8A71C43_D047_4802_ABC6_3510162814BD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msxml6.dll</td><td/><td/><td>_F9D471D6_A22F_4667_AFC6_0DC607D77BAA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msxml6.dll1</td><td/><td/><td>_3E3D0D53_7440_4F5D_99BF_ABCAA0AB7BBC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>opencv_core246.dll</td><td/><td/><td>_811517C5_B0E4_441E_8E9F_551AE3315456_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>opencv_highgui246.dll</td><td/><td/><td>_81FF10FA_4A31_4145_AA13_629AAC4BBBF0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>opencv_imgproc246.dll</td><td/><td/><td>_FC21A9F4_23EA_4603_9B5D_57387A6C197C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>opencv_photo246.dll</td><td/><td/><td>_EBDF3FA5_9BAD_450F_A4C9_54A227694DE0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>zlib1.dll</td><td/><td/><td>_FD73B1CC_40A8_45D1_AB49_04DF0256FC01_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>zlib1.dll1</td><td/><td/><td>_93837151_4050_470D_A312_700EA1855606_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2264,6 +2524,7 @@
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s255">ISMergeModule_</col>
 		<col key="yes" def="i2">Language_</col>
+		<row><td>AlwaysInstall</td><td>Microsoft_VC110_CRT_ARM.C6113C00_791D_3D01_B3BF_8B9C4C7F6B64</td><td>0</td></row>
 	</table>
 
 	<table name="ISFeatureSetupPrerequisites">
@@ -2386,6 +2647,7 @@
 		<col def="s255">Name</col>
 		<col def="S255">Destination</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>Microsoft_VC110_CRT_ARM.C6113C00_791D_3D01_B3BF_8B9C4C7F6B64</td><td>0</td><td>Visual C++ 11.0 CRT (ARM)</td><td/><td/></row>
 	</table>
 
 	<table name="ISMergeModuleCfgValues">
@@ -2472,12 +2734,6 @@
 		<row><td>ProgramFilesFolder</td><td/><td/><td>1</td></row>
 		<row><td>SystemFolder</td><td/><td/><td>1</td></row>
 		<row><td>WindowsFolder</td><td/><td/><td>1</td></row>
-	</table>
-
-	<table name="ISPowerShellWrap">
-		<col key="yes" def="s72">Action_</col>
-		<col key="yes" def="s72">Name</col>
-		<col def="S0">Value</col>
 	</table>
 
 	<table name="ISProductConfiguration">
@@ -3954,6 +4210,12 @@
 		<col def="s255">Value</col>
 	</table>
 
+	<table name="ISWSEWrap">
+		<col key="yes" def="s72">Action_</col>
+		<col key="yes" def="s72">Name</col>
+		<col def="S0">Value</col>
+	</table>
+
 	<table name="ISXmlElement">
 		<col key="yes" def="s72">ISXmlElement</col>
 		<col def="s72">ISXmlFile_</col>
@@ -4129,7 +4391,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{86DF5804-A815-49FF-B55B-E4B438D71E78}</td></row>
 		<row><td>ISUSSignature</td><td>{D672BC24-49F0-4BB9-A838-A33F12B0B13D}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewAppFiles,viewObjects,viewProject,viewSystemSearch,viewRelease</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4141,7 +4403,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SaveAsSchema</td><td/></row>
 		<row><td>SccEnabled</td><td>0</td></row>
 		<row><td>SccPath</td><td/></row>
-		<row><td>SchemaVersion</td><td>774</td></row>
+		<row><td>SchemaVersion</td><td>776</td></row>
 		<row><td>Type</td><td>MSIE</td></row>
 	</table>
 
@@ -4580,8 +4842,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>FileKey1</td><td>ImageExtractor_1_1_26.exe</td><td/><td>idhmc</td><td>2</td></row>
-		<row><td>FileKey2</td><td>ImageExtractor_1_1_26.exe</td><td/><td>franke_1_franken_</td><td>2</td></row>
 		<row><td>_Built</td><td>Franken_.Primary_output</td><td/><td>franke_1_franken_</td><td>2</td></row>
 	</table>
 
@@ -5275,9 +5535,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISPathVariable</td><td>TestValue</td><td>Y</td><td/><td/><td/><td/><td>Text</td><td/><td>The test value of the path variable.</td></row>
 		<row><td>ISPathVariable</td><td>Type</td><td>N</td><td/><td/><td/><td/><td/><td>1;2;4;8</td><td>The type of the path variable.</td></row>
 		<row><td>ISPathVariable</td><td>Value</td><td>Y</td><td/><td/><td/><td/><td>Text</td><td/><td>The value of the path variable.</td></row>
-		<row><td>ISPowerShellWrap</td><td>Action_</td><td>N</td><td/><td/><td>CustomAction</td><td>1</td><td>Identifier</td><td/><td>Foreign key into CustomAction table</td></row>
-		<row><td>ISPowerShellWrap</td><td>Name</td><td>N</td><td/><td/><td/><td/><td>Text</td><td/><td>Property associated with this Action</td></row>
-		<row><td>ISPowerShellWrap</td><td>Value</td><td>Y</td><td/><td/><td/><td/><td>Text</td><td/><td>Value associated with this Property</td></row>
 		<row><td>ISProductConfiguration</td><td>GeneratePackageCode</td><td>Y</td><td/><td/><td/><td/><td>Number</td><td>0;1</td><td>Indicates whether or not to generate a package code.</td></row>
 		<row><td>ISProductConfiguration</td><td>ISProductConfiguration</td><td>N</td><td/><td/><td/><td/><td>Text</td><td/><td>The name of the product configuration.</td></row>
 		<row><td>ISProductConfiguration</td><td>ProductConfigurationFlags</td><td>Y</td><td/><td/><td/><td/><td>Text</td><td/><td>Product configuration (release) flags.</td></row>
@@ -5515,6 +5772,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISVirtualShortcut</td><td>Name</td><td>N</td><td/><td/><td/><td/><td>Identifier</td><td/><td>Property name</td></row>
 		<row><td>ISVirtualShortcut</td><td>Shortcut_</td><td>N</td><td/><td/><td>Shortcut</td><td>1</td><td>Identifier</td><td/><td>Foreign key into Shortcut table.</td></row>
 		<row><td>ISVirtualShortcut</td><td>Value</td><td>N</td><td/><td/><td/><td/><td/><td/><td>Property value</td></row>
+		<row><td>ISWSEWrap</td><td>Action_</td><td>N</td><td/><td/><td>CustomAction</td><td>1</td><td>Identifier</td><td/><td>Foreign key into CustomAction table</td></row>
+		<row><td>ISWSEWrap</td><td>Name</td><td>N</td><td/><td/><td/><td/><td>Text</td><td/><td>Property associated with this Action</td></row>
+		<row><td>ISWSEWrap</td><td>Value</td><td>Y</td><td/><td/><td/><td/><td>Text</td><td/><td>Value associated with this Property</td></row>
 		<row><td>ISXmlElement</td><td>Content</td><td>Y</td><td/><td/><td/><td/><td>Text</td><td/><td>Element contents</td></row>
 		<row><td>ISXmlElement</td><td>ISAttributes</td><td>Y</td><td/><td/><td/><td/><td>Number</td><td/><td>Internal XML element attributes</td></row>
 		<row><td>ISXmlElement</td><td>ISXmlElement</td><td>N</td><td/><td/><td/><td/><td>Identifier</td><td/><td>Primary key, non-localized, internal token for Xml element</td></row>

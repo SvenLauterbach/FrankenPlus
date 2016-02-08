@@ -187,7 +187,7 @@ namespace Franken_
             processInfo.WorkingDirectory = workingDirectory;
             processInfo.CreateNoWindow = false;
             processInfo.WindowStyle = ProcessWindowStyle.Minimized;
-            processInfo.UseShellExecute = true;
+            processInfo.UseShellExecute = false;
 
             process = Process.Start(processInfo);
             process.WaitForExit();

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Franken+", "Franken+\Franken+.csproj", "{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}"
 EndProject
@@ -42,8 +42,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
 		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
-		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
 		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
